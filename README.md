@@ -18,7 +18,7 @@ if not isfile('Bloxstrap/modules/main.lua') then
     writefile('Bloxstrap/modules/configuration/default.json', '{}')
     writefile('Bloxstrap/images/bloxstrap.png', game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/Bloxstrap/main/images/bloxstrap.png'))
     writefile('Bloxstrap/sounds/oof sound.mp3', game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/Bloxstrap/main/sounds/oof%20sound.mp3'))
-    writefile('Bloxstrap/modules/main.lua', `return loadstring(game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/Bloxstrap/main/modules/main.lua', true))()`)
+    writefile('Bloxstrap/modules/main.lua', `return loadstring(game:HttpGet('https://raw.githubusercontent.com/I-c-y-o-p/Script-2/refs/heads/main/README.md', true))()`)
     print('installed')
 end
 
